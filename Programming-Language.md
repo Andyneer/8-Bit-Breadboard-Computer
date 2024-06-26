@@ -1,4 +1,5 @@
-The programming language for this computer is a custom assembly language made up of 11 instructions, each instruction executes a set of microinstructions to perform the operation.
+The programming language for this computer is a custom assembly language made up of 11 instructions. An instruction consists of 1 byte of data. The instruction code is the most significant 4 bits. If the instruction uses a parameter such as an address, it is stored in the least significant 4 bits.
+If the instruction does not use any parameters, the least significant 4 bits are irrelevant.
 
 | Instruction | Code | Description                                                                                                             |
 | ----------- | ---- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -13,3 +14,8 @@ The programming language for this computer is a custom assembly language made up
 | JZ(addr)    | 1000 |  Jumps to the given address if the zero flag is set.                                                                    |
 | OUT         | 1110 |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT         | 1111 |  Halts the computer.                                                                                                    |
+
+Each instruction executes a set of microinstructions to perform the given operation. A microinstruction consists of a 16-bit control word.
+
+| 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
