@@ -19,4 +19,4 @@ Each instruction executes a set of microinstructions to perform the given operat
 
 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 |--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
-|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|Register A Input|Register A Output|ALU Output|Subtract|Register B Input|Output Register Input|Counter Enable|Counter Output|Jump|Flags Input|
+|Halt|Memory Address Register In|RAM In|RAM Out|Instruction Register In| Instruction Register Out|Register A In|Register A Out|ALU Out|Subtract|Register B In|Output Register In|Counter Enable|Counter Out|Jump|Flags In|
