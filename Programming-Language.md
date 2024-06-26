@@ -23,10 +23,11 @@ Each instruction executes a set of microinstructions to perform the given operat
 |Short Hand|HLT|MI|RI|RO|II|IO|AI|AO|∑O|SU|BI|OI|CE|CO|J|FI|
 
 Every instruction begins with a 2-microinstruction fetch cycle before performing its other operations.
-|   Instr.  | Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
-|-----------|------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Fetch      |  ----|0    | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-|Fetch      |  ----|1    | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+#Fetch
+| Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
+|------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  ----|0    | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+|  ----|1    | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 
 |   Instr.  | Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |-----------|------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
