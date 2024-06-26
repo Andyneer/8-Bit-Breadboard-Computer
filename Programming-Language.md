@@ -5,8 +5,8 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
 | NOP             | `0000`   |  Do nothing.                                                                                                            |
 | LDA(addr)       | `0001`   |  Load the contents of the given address into the A register.                                                            |
-| ADD(addr)       | `0010`   |  Add the contents of the given address to the contents of the A register and store the result in the A register.        |
-| SUB(addr)       | `0011`   |  Subtract the contents of the given address from the contents of the A register and store the result in the A register. |
+| ADD(addr)       | `0010`   |  Add the contents of the given address to the contents of the A register.                                               |
+| SUB(addr)       | `0011`   |  Subtract the contents of the given address from the contents of the A register.                                        |
 | STA(addr)       | `0100`   |  Store the contents of the A register in the given address.                                                             |
 | LDI(val)        | `0101`   |  Load the given value directly into the A register.                                                                     |
 | JMP(addr)       | `0110`   |  Jumps to the given address.                                                                                            |
@@ -23,7 +23,7 @@ Each instruction executes a set of microinstructions to perform the given operat
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|Subtract|B Register Input|Output Register Input|Counter Enable|Counter Output|Jump|Flag Input|
 
 Every instruction begins with a 2-microinstruction fetch cycle before performing its other operations.
-|Instruction| Code |Step|HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
+|Instruction| Code |Step|Carry Flag| Zero Flag |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |-----------|------|----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |Fetch      |  ----| 0  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 |Fetch      |  ----| 1  | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
@@ -38,3 +38,5 @@ Every instruction begins with a 2-microinstruction fetch cycle before performing
 |SUB        |`0011`| 4  | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 |STA        |`0100`| 2  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |STA        |`0100`| 3  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|LDI        |`0101`| 2  | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|JMP        |`0110`| 2  | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
