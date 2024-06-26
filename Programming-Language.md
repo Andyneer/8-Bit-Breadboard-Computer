@@ -21,4 +21,4 @@ Each instruction executes a set of microinstructions to perform the given operat
 |---|--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
 |**Meaning**|Halt|Mem. Addr. Reg. In|RAM In|RAM Out|Instr. Reg. In| Instr. Reg. Out|A Reg. In|A Reg. Out|ALU Out|Subtract|B Reg. In|Output Reg. In|Counter Enable|Counter Out|Jump|Flags In|
 
-<span style="font-size:0.1em;">Text goes here</span>
+<span style="font-size:0.0001em;">Text goes here</span>
