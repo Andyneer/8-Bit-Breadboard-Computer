@@ -44,3 +44,5 @@ Every instruction begins with a 2-microinstruction fetch cycle before performing
 |JC         |`0111`|2|1        |--     | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 |JZ         |`1000`|2|--       |0      | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |JZ         |`1000`|2|--       |1      | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+
+🚩
