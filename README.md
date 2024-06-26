@@ -8,7 +8,7 @@ Arduino EEPROM Programmer
 ![EEPROM Programmer](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/654c2f0f-3759-49f5-9922-86eaf8718661)
 
 Fibonacci Sequence Demo
-https://www.youtube.com/watch?v=hMcOJK3IJHs
+[https://www.youtube.com/watch?v=hMcOJK3IJHs](https://youtu.be/hMcOJK3IJHs)
 
 Finished Controls and Multiplication Demo
 https://youtu.be/AokFEmNVFQk
