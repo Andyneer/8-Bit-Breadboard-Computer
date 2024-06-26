@@ -1,14 +1,14 @@
 The programming language for this computer is a custom assembly language made up of 11 instructions, each instruction executes a set of microinstructions to perform the operation.
 
 Instructions:
-NOP
-LDA
-ADD
-SUB
-STA
-LDI
-JMP
-JC
-JZ
-OUT
-HLT
+NOP        -  No operation - Does nothing.
+LDA(addr)  -  Load the contents of the given address into the A register.
+ADD(addr)  -  Add the contents of the given address to the A register and store the result in the A register.
+SUB  -  
+STA  -  
+LDI  -  
+JMP  -  
+JC   -  
+JZ   -  
+OUT  -  Output the contents of the A register to the 7-segment display.
+HLT  -  
