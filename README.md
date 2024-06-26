@@ -4,6 +4,18 @@ It was built using 7400-series transistor–transistor logic chips and a few EEP
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
 
+Ben Eater's Series:
+https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
+
+Finished Build Diagram:
+![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
+
+Fibonacci Sequence Demo:
+https://youtu.be/hMcOJK3IJHs
+
+Finished Controls and Multiplication Demo:
+https://youtu.be/AokFEmNVFQk
+
 The programming language for the computer is a custom assembly language with 11 Instructions:
 | **Instruction** | **Code** | **Description**                                                                                                         |
 | :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
@@ -19,18 +31,6 @@ The programming language for the computer is a custom assembly language with 11 
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 Additional information for how each instruction works is available in the Programming-Language.md file
-
-Ben Eater's Series:
-https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
-
-Finished Build Diagram:
-![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
-
-Fibonacci Sequence Demo:
-https://youtu.be/hMcOJK3IJHs
-
-Finished Controls and Multiplication Demo:
-https://youtu.be/AokFEmNVFQk
 
 Arduino EEPROM Programmer:
 ![EEPROM Programmer](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/4b1a490d-1e85-40b4-b276-feb9e0df7762)
