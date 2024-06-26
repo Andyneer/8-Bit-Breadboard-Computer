@@ -17,6 +17,6 @@ If the instruction does not use any parameters, the least significant 4 bits are
 
 Each instruction executes a set of microinstructions to perform the given operation. A microinstruction consists of a 16-bit control word.
 
-|**Bit**| 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|**Bit**| 15<sup>th</sup> | 14<sup>th</sup> | 13<sup>th</sup> | 12<sup>th</sup> | 11<sup>th</sup> | 10<sup>th</sup> | 9<sup>th</sup> | 8<sup>th</sup> | 7<sup>th</sup> | 6<sup>th</sup> | 5<sup>th</sup> | 4<sup>th</sup> | 3<sup>rd</sup> | 2<sup>nd</sup> | 1<sup>st</sup> | 0<sup>th</sup> |
 |---|--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|Subtract|B Register Input|Output Register Input|Counter Enable|Counter Output|Jump|Flag Input|
