@@ -26,6 +26,7 @@ Simple-As-Possible-1 Computer Architecture - "Digital Computer Electronics" by A
 ![SAP-1 Architecture](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/ca557870-c1c1-4004-a7bc-5e941358bff1)
 
 Schematics - Credit Ben Eater https://eater.net
+
 High-Level Overview:
 <img width="890" alt="high-level" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/14fe68f3-9eb1-4c80-885a-17a2a1f34d7c">
 
