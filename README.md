@@ -30,6 +30,7 @@ The programming language for the computer is a custom assembly language with 11 
 | JZ(addr)        | `1000`   |  Jumps to the given address if the zero flag is set.                                                                    |
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
+
 Additional information for how each instruction works is available in the Programming-Language.md file
 
 Arduino EEPROM Programmer:
