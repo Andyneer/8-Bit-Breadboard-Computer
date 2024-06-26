@@ -3,9 +3,22 @@ This project follows Ben Eater's series on building a programmable breadboard co
 It was built using 7400-series transistor–transistor logic chips and a few EEPROMs to store microcode and decode input for the 7-segment displays.
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
-The programming language for the computer is a custom assembly language detailed in the Programming Language document:
 
-https://github.com/Andyneer/8-Bit-Breadboard-Computer/blob/main/Programming-Language
+The programming language for the computer is a custom assembly language with 11 Instructions:
+| **Instruction** | **Code** | **Description**                                                                                                         |
+| :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
+| NOP             | `0000`   |  Do nothing.                                                                                                            |
+| LDA(addr)       | `0001`   |  Load the contents of the given address into the A register.                                                            |
+| ADD(addr)       | `0010`   |  Add the contents of the given address to the contents of the A register.                                               |
+| SUB(addr)       | `0011`   |  Subtract the contents of the given address from the contents of the A register.                                        |
+| STA(addr)       | `0100`   |  Store the contents of the A register in the given address.                                                             |
+| LDI(val)        | `0101`   |  Load the given value directly into the A register.                                                                     |
+| JMP(addr)       | `0110`   |  Jumps to the given address.                                                                                            |
+| JC(addr)        | `0111`   |  Jumps to the given address if the carry flag is set.                                                                   |
+| JZ(addr)        | `1000`   |  Jumps to the given address if the zero flag is set.                                                                    |
+| OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
+| HLT             | `1111`   |  Halts the computer.                                                                                                    |
+Additional information for how each instruction works is available in the Programming-Language.md file
 
 Ben Eater's Series:
 https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
