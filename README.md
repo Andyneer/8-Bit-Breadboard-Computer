@@ -2,7 +2,6 @@
 This project follows Ben Eater's series on building a breadboard computer using the SAP-1 (Simple-As-Possible-1) computer architecture outlined the Paul Malvino's book: "Digital Computer Electronics".
 
 Ben Eater's Series:
-
 https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
 
 Finished Build Diagram:
