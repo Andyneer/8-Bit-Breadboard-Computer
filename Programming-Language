@@ -1,14 +1,15 @@
 The programming language for this computer is a custom assembly language made up of 11 instructions, each instruction executes a set of microinstructions to perform the operation.
 
-Instructions:
-NOP        -  No operation - Does nothing.
-LDA(addr)  -  Load the contents of the given address into the A register.
-ADD(addr)  -  Add the contents of the given address to the A register and store the result in the A register.
-SUB  -  
-STA  -  
-LDI  -  
-JMP  -  
-JC   -  
-JZ   -  
-OUT  -  Output the contents of the A register to the 7-segment display.
-HLT  -  
+| Instruction | Code | Description |
+| ----------- | ---- | ----------- |
+| NOP         | 0000 |  Do nothing.
+| LDA(addr)   | 0001 |  Load the contents of the given address into the A register.
+| ADD(addr)   | 0010 |  Add the contents of the given address to the contents of the A register and store the result in the A register.
+| SUB(addr)   | 0011 |  Subtract the contents of the given address from the contents of the A register and store the result in the A register.
+| STA(addr)   | 0100 |  Store the contents of the A register in the given address.
+| LDI         | 0101 |    
+| JMP         | 0110 |  
+| JC          | 0111 |  
+| JZ          | 1000 |  
+| OUT         | 1110 |  Output the contents of the A register to the 7-segment display.
+| HLT         | 1111 |  Halts the computer.
