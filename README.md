@@ -3,6 +3,8 @@ This project follows Ben Eater's series on building a programmable breadboard co
 It was built using 7400-series transistor–transistor logic chips and a few EEPROMs to store microcode and decode input for the 7-segment displays.
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
+The programming language for the computer is a custom assembly language detailed in the Programming Language document:
+https://github.com/Andyneer/8-Bit-Breadboard-Computer/blob/main/Programming-Language
 
 Ben Eater's Series:
 https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
