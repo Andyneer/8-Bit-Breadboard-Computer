@@ -1,0 +1,14 @@
+The programming language for this computer is a custom assembly language made up of 11 instructions, each instruction executes a set of microinstructions to perform the operation.
+
+Instructions:
+NOP
+LDA
+ADD
+SUB
+STA
+LDI
+JMP
+JC
+JZ
+OUT
+HLT
