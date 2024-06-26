@@ -16,6 +16,7 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | HLT         | 1111 |  Halts the computer.                                                                                                    |
 
 Each instruction executes a set of microinstructions to perform the given operation. A microinstruction consists of a 16-bit control word.
-
+| Control Word  |
+|---------------------------------------------------------------------|
 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 |--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
