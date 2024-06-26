@@ -2,7 +2,7 @@ The programming language for this computer is a custom assembly language made up
 If the instruction does not use any parameters, the least significant 4 bits are irrelevant.
 
 | **Instruction** | **Code** | **Description**                                                                                                         |
-| --------------- | -------- | ----------------------------------------------------------------------------------------------------------------------: |
+| :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
 | NOP             | `0000`   |  Do nothing.                                                                                                            |
 | LDA(addr)       | `0001`   |  Load the contents of the given address into the A register.                                                            |
 | ADD(addr)       | `0010`   |  Add the contents of the given address to the contents of the A register and store the result in the A register.        |
