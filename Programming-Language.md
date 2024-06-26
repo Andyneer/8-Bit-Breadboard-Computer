@@ -23,13 +23,18 @@ Each instruction executes a set of microinstructions to perform the given operat
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|Subtract|B Register Input|Output Register Input|Counter Enable|Counter Output|Jump|Flag Input|
 
 Every instruction begins with a 2-microinstruction fetch cycle before performing its other operations.
-|Instruction|Code  |Step|HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
+|Instruction| Code |Step|HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |-----------|------|----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Fetch      | ---- |0   |0  |1  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |1  |0  |0  |
-|Fetch      | ---- |1   |0  |0  |0  |1  |1  |0  |0  |0  |0  |0  |0  |0  |1  |0  |0  |0  |
-|NOP        |`0000`|2   |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
-|LDA        |`0001`|2   |0  |1  |0  |0  |0  |1  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
-|LDA        |`0001`|3   |0  |0  |0  |1  |0  |0  |1  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
-|ADD        |`0010`|2   |0  |1  |0  |0  |0  |1  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
-|ADD        |`0010`|3   |0  |0  |0  |1  |0  |0  |0  |0  |0  |0  |1  |0  |0  |0  |0  |0  |
-|ADD        |`0010`|4   |0  |0  |0  |0  |0  |0  |1  |0  |1  |0  |0  |0  |0  |0  |0  |1  |
+|Fetch      | ---- | 0  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+|Fetch      | ---- | 1  | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+|NOP        |`0000`| 2  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|LDA        |`0001`| 2  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|LDA        |`0001`| 3  | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|ADD        |`0010`| 2  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|ADD        |`0010`| 3  | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+|ADD        |`0010`| 4  | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+|SUB        |`0011`| 2  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|SUB        |`0011`| 3  | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+|SUB        |`0011`| 4  | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+|STA        |`0100`| 2  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|STA        |`0100`| 3  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
