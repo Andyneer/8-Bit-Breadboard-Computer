@@ -13,7 +13,7 @@
 |9|STA 13|`0100` `1101`|Store the contents of the A register in address 13|
 |10|JMP 0|`0110` `0000`|Jump to address 0|
 |11|----|`----` `----`|Address not used|
-|12|1|`00000001`|The value 1|
-|13|product|`00000000`|Where the resulting product will be stored|
+|12|1|`0000` `0001`|The value 1|
+|13|product|`0000` `0000`|Where the resulting product will be stored|
 |14|x| |One of the values to multiply|
 |15|y| |The other value to multiply|
