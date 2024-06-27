@@ -43,7 +43,7 @@ Arduino EEPROM Programmer:
 EEPROM Programmer Arduino Code:
 https://github.com/beneater/eeprom-programmer/tree/master
 
-Schematics - Credit - [Ben Eater](https://eater.net)
+# Schematics - Credit - [Ben Eater](https://eater.net)
 
 ## High-Level Overview
 <img width="890" alt="high-level" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/14fe68f3-9eb1-4c80-885a-17a2a1f34d7c">
