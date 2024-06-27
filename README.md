@@ -49,7 +49,7 @@ Schematics - Credit - [Ben Eater](https://eater.net)
 ## Clock Module
 <img width="1314" alt="clock" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/6646c655-a451-41b6-971c-34c5ec028bbc">
 
-After struggling with inconsistencies with the bistable mode for the clock module, this modification to the bistable circuit solved the issues and allowed the use of a button instead of a switch for stopping and starting the clock.
+After struggling with inconsistencies with the bistable mode for the clock module, the below modification to the bistable circuit solved the issues and allowed the use of a button instead of a switch for stopping and starting the clock.
 Credit - [dawidbuchwald](https://www.reddit.com/r/beneater/comments/eai6ke/issue_with_clock_kit_and_possible_solution_with/)
 
 ![bistable-timer-modification](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/3822ef2b-32a2-43c4-af16-ca562a3a7456)
