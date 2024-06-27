@@ -6,12 +6,6 @@ The computer has only 16 Bytes of RAM so programs are quite limited but the inst
 
 ![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
 
-Fibonacci Sequence Demo:
-https://youtu.be/hMcOJK3IJHs
-
-Finished Controls and Multiplication Demo:
-https://youtu.be/AokFEmNVFQk
-
 The programming language for the computer is a custom assembly language with 11 Instructions:
 | **Instruction** | **Code** | **Description**                                                                                                         |
 | :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
@@ -30,6 +24,12 @@ The programming language for the computer is a custom assembly language with 11 
 Additional information for how each instruction works is available in [Programming-Language.md](Programming-Language.md).
 
 Two example programs are shown in [Fibonacci-Sequence.md](Fibonacci-Sequence.md) and [Multiplication.md](Multiplication.md).
+
+Fibonacci Sequence Demo:
+https://youtu.be/hMcOJK3IJHs
+
+Finished Controls and Multiplication Demo:
+https://youtu.be/AokFEmNVFQk
 
 Simple-As-Possible-1 Computer Architecture - "[Digital Computer Electronics](https://archive.org/details/digital-computer-electronics-albert-paul-malvino-and-jerald-a-brown/page/140/mode/2up)" by Albert Paul Malvino, page 140:
 ![SAP-1 Architecture](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/ca557870-c1c1-4004-a7bc-5e941358bff1)
