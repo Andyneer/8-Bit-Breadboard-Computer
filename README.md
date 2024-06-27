@@ -7,7 +7,6 @@ The computer has only 16 Bytes of RAM so programs are quite limited but it is Tu
 Ben Eater's Series:
 https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
 
-Finished Build Diagram:
 ![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
 
 Fibonacci Sequence Demo:
