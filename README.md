@@ -1,5 +1,5 @@
 # 8-Bit-Breadboard-Computer
-This project follows Ben Eater's series on building a programmable breadboard computer using the SAP-1 (Simple-As-Possible-1) computer architecture outlined in Albert Paul Malvino's book: ["Digital Computer Electronics"](https://archive.org/details/digital-computer-electronics-albert-paul-malvino-and-jerald-a-brown/page/140/mode/2up).
+This project follows Ben Eater's series on building a programmable breadboard computer using the SAP-1 (Simple-As-Possible-1) computer architecture outlined in Albert Paul Malvino's book: "["Digital Computer Electronics](https://archive.org/details/digital-computer-electronics-albert-paul-malvino-and-jerald-a-brown/page/140/mode/2up)".
 It was built using 7400-series transistor–transistor logic chips, 555 timers, and a few EEPROMs.
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
@@ -34,7 +34,7 @@ Additional information for how each instruction works is available in the [Progr
 
 Two example programs are [Fibonacci Sequence](Fibonacci-Sequence.md) and [Multiplication](Multiplication.md).
 
-Simple-As-Possible-1 Computer Architecture - "Digital Computer Electronics" by Albert Paul Malvino, page 140:
+Simple-As-Possible-1 Computer Architecture - "[Digital Computer Electronics](https://archive.org/details/digital-computer-electronics-albert-paul-malvino-and-jerald-a-brown/page/140/mode/2up)" by Albert Paul Malvino, page 140:
 ![SAP-1 Architecture](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/ca557870-c1c1-4004-a7bc-5e941358bff1)
 
 Arduino EEPROM Programmer:
