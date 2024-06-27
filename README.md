@@ -31,6 +31,7 @@ The programming language for the computer is a custom assembly language with 11 
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
 Additional information for how each instruction works is available in the [Programming-Language.md](Programming-Language.md) file.
+
 Two example programs are [Fibonacci Sequence](Fibonacci-Sequence.md) and [Multiplication](Multiplication.md).
 
 Simple-As-Possible-1 Computer Architecture - "Digital Computer Electronics" by Albert Paul Malvino, page 140:
