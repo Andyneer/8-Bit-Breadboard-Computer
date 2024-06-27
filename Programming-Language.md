@@ -1,5 +1,5 @@
 The programming language for this computer is a custom assembly language made up of 11 instructions. An instruction consists of 1 byte of data. The instruction code is the most significant 4 bits. If the instruction uses a parameter such as an address, it is stored in the least significant 4 bits.
-If the instruction does not use any parameters, the least significant 4 bits are irrelevant.
+If the instruction does not use any parameters, the least significant 4 bits are irrelevant. When it comes to actually programming the computer, the binary instruction codes and parameters must be manually input into each memory address using the control box.
 
 | **Instruction** | **Code** | **Description**                                                                                                         |
 | :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
@@ -9,11 +9,11 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | SUB(address)    | `0011`   |  Subtract the contents of the given address from the contents of the A register.                                        |
 | STA(address)    | `0100`   |  Store the contents of the A register in the given address.                                                             |
 | LDI(value)      | `0101`   |  Load the given value directly into the A register.                                                                     |
-| JMP(address)    | `0110`   |  Jump to the given address.                                                                                            |
-| JC(address)     | `0111`   |  Jump to the given address if the carry flag is set.                                                                   |
-| JZ(address)     | `1000`   |  Jump to the given address if the zero flag is set.                                                                    |
+| JMP(address)    | `0110`   |  Jump to the given address.                                                                                             |
+| JC(address)     | `0111`   |  Jump to the given address if the carry flag is set.                                                                    |
+| JZ(address)     | `1000`   |  Jump to the given address if the zero flag is set.                                                                     |
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
-| HLT             | `1111`   |  Halt the computer.                                                                                                    |
+| HLT             | `1111`   |  Halt the computer.                                                                                                     |
 
 Each instruction executes a set of microinstructions to perform the given operation. A microinstruction consists of a 16-bit control word.
 The instruction code and the current step are sent to the microcode EEPROMs. Based on this input, the EEPROMs output the corresponding control word for that part of the instruction.
