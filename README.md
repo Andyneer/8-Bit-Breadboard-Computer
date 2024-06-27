@@ -4,9 +4,6 @@ It was built using 7400-series transistor–transistor logic chips, 555 timers, 
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
 
-Ben Eater's Series:
-https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
-
 ![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
 
 Fibonacci Sequence Demo:
@@ -32,9 +29,11 @@ The programming language for the computer is a custom assembly language with 11 
 
 Additional information for how each instruction works is available in the [Programming-Language.md](Programming-Language.md) file.
 
+Ben Eater's Series:
+https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=T-VIjqWlPINV_P_u
+
 Simple-As-Possible-1 Computer Architecture - "Digital Computer Electronics" by Albert Paul Malvino, page 140:
 ![SAP-1 Architecture](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/ca557870-c1c1-4004-a7bc-5e941358bff1)
-
 
 Arduino EEPROM Programmer:
 ![EEPROM Programmer](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/3b29b18c-186e-4685-b577-665d14ceda2c)
