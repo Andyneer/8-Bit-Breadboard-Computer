@@ -21,7 +21,7 @@ The programming language for the computer is a custom assembly language with 11 
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
-Note that when programming the computer, machine code is directly input into the memory addresses. The assembly language is an abstraction to assist in the creation and readability of programs.
+Note that when programming the computer, binary machine code is directly input into the memory addresses. The assembly language is an abstraction to assist in the creation and readability of programs.
 
 Additional information for how each instruction works is available in [Programming-Language.md](Programming-Language.md).
 
