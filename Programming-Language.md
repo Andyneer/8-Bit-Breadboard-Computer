@@ -16,7 +16,7 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
 Each instruction executes a set of microinstructions to perform the given operation. A microinstruction consists of a 16-bit control word.
-The instruction code and the current step are sent to the microcode EEPROMs. Based on this input, the EEPROMs output the corresponding control word for this part of the instruction.
+The instruction code and the current step are sent to the microcode EEPROMs. Based on this input, the EEPROMs output the corresponding control word for that part of the instruction.
 Below is a table which describes what each bit of the control word corresponds to, as well as tables to show the microinstructions for every instruction. 
 
 |**Bit**| 15<sup>th</sup> | 14<sup>th</sup> | 13<sup>th</sup> | 12<sup>th</sup> | 11<sup>th</sup> | 10<sup>th</sup> | 9<sup>th</sup> | 8<sup>th</sup> | 7<sup>th</sup> | 6<sup>th</sup> | 5<sup>th</sup> | 4<sup>th</sup> | 3<sup>rd</sup> | 2<sup>nd</sup> | 1<sup>st</sup> | 0<sup>th</sup> |
