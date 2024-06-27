@@ -1,4 +1,4 @@
-# 8-Bit-Breadboard-Computer
+# 8-Bit Breadboard Computer
 This project follows [Ben Eater's YouTube series](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) on building a programmable breadboard computer using the SAP-1 (Simple-As-Possible-1) computer architecture outlined in Albert Paul Malvino's book: "[Digital Computer Electronics](https://archive.org/details/digital-computer-electronics-albert-paul-malvino-and-jerald-a-brown/page/140/mode/2up)".
 It was built using [7400-series transistor–transistor logic chips](https://en.wikipedia.org/wiki/7400-series_integrated_circuits), [555 timers](https://en.wikipedia.org/wiki/555_timer_IC), and a few [EEPROMs](https://en.wikipedia.org/wiki/EEPROM).
 Modules were built and tested individually before combining them all with the bus and control logic.
