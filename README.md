@@ -1,6 +1,6 @@
 # 8-Bit-Breadboard-Computer
 This project follows Ben Eater's series on building a programmable breadboard computer using the SAP-1 (Simple-As-Possible-1) computer architecture outlined in Paul Malvino's book: "Digital Computer Electronics".
-It was built using 7400-series transistor–transistor logic chips and a few EEPROMs to store microcode and decode input for the 7-segment displays.
+It was built using 7400-series transistor–transistor logic chips, 555 timers, and a few EEPROMs.
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but it is Turing complete.
 
