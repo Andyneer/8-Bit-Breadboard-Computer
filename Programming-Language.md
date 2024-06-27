@@ -4,14 +4,14 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | **Instruction** | **Code** | **Description**                                                                                                         |
 | :-------------- | :------- | :---------------------------------------------------------------------------------------------------------------------- |
 | NOP             | `0000`   |  Do nothing.                                                                                                            |
-| LDA(addr)       | `0001`   |  Load the contents of the given address into the A register.                                                            |
-| ADD(addr)       | `0010`   |  Add the contents of the given address to the contents of the A register.                                               |
-| SUB(addr)       | `0011`   |  Subtract the contents of the given address from the contents of the A register.                                        |
-| STA(addr)       | `0100`   |  Store the contents of the A register in the given address.                                                             |
-| LDI(val)        | `0101`   |  Load the given value directly into the A register.                                                                     |
-| JMP(addr)       | `0110`   |  Jumps to the given address.                                                                                            |
-| JC(addr)        | `0111`   |  Jumps to the given address if the carry flag is set.                                                                   |
-| JZ(addr)        | `1000`   |  Jumps to the given address if the zero flag is set.                                                                    |
+| LDA(address)    | `0001`   |  Load the contents of the given address into the A register.                                                            |
+| ADD(address)    | `0010`   |  Add the contents of the given address to the contents of the A register.                                               |
+| SUB(address)    | `0011`   |  Subtract the contents of the given address from the contents of the A register.                                        |
+| STA(address)    | `0100`   |  Store the contents of the A register in the given address.                                                             |
+| LDI(value)      | `0101`   |  Load the given value directly into the A register.                                                                     |
+| JMP(address)    | `0110`   |  Jumps to the given address.                                                                                            |
+| JC(address)     | `0111`   |  Jumps to the given address if the carry flag is set.                                                                   |
+| JZ(address)     | `1000`   |  Jumps to the given address if the zero flag is set.                                                                    |
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
