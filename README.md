@@ -27,7 +27,7 @@ The programming language for the computer is a custom assembly language with 11 
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
-Additional information for how each instruction works is available in the [Programming-Language.md](Programming-Language.md) file.
+Additional information for how each instruction works is available in [Programming-Language.md](Programming-Language.md).
 
 Two example programs are shown in [Fibonacci-Sequence.md](Fibonacci-Sequence.md) and [Multiplication.md](Multiplication.md).
 
