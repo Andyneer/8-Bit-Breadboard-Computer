@@ -8,7 +8,7 @@
 |4|OUT|`1110` `----`|Output the contents of the A register to the 7-segment display|
 |5|HLT|`1111` `----`|Halt the computer|
 |6|STA 14|`0100` `1110`|Store the contents of the A register in address 14|
-|7|LDA13|`0001` `1101`|Load the contents of address 13 into the A register|
+|7|LDA 13|`0001` `1101`|Load the contents of address 13 into the A register|
 |8|ADD 15|`0010` `1111`|Add the contents of address 15 to the contents of the A register|
 |9|STA 13|`0100` `1101`|Store the contents of the A register in address 13|
 |10|JMP 0|`0110` `0000`|Jump to address 0|
