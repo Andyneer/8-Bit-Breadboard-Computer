@@ -22,9 +22,9 @@ Each instruction executes a set of microinstructions to perform the given operat
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|Subtract|B Register Input|Output Register Input|Counter Enable|Counter Output|Jump|Flag Register Input|
 |Short Hand|HLT|MI|RI|RO|II|IO|AI|AO|∑O|SU|BI|OI|CE|CO|J|FI|
 
-Every instruction begins with a 2-microinstruction fetch cycle before performing its other operations.
-
 ### Fetch
+A 2-microinstruction fetch cycle runs for every instruction.
+This cycle fetches the instruction from the memory, and puts it into the instruction register to be executed.
 | Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |  ----|0    | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
