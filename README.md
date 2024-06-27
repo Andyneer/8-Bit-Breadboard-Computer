@@ -43,43 +43,43 @@ https://github.com/beneater/eeprom-programmer/tree/master
 
 Schematics - Credit - [Ben Eater](https://eater.net)
 
-## High-Level Overview:
+## High-Level Overview
 <img width="890" alt="high-level" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/14fe68f3-9eb1-4c80-885a-17a2a1f34d7c">
 
-## Clock Module:
+## Clock Module
 <img width="1314" alt="clock" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/6646c655-a451-41b6-971c-34c5ec028bbc">
 
-After struggling with inconsistencies with the bistable mode for the clock module, this modification to the bistable circuit solved the issues and allowed the use of a button instead of a toggle switch for stopping and starting the clock.
+After struggling with inconsistencies with the bistable mode for the clock module, this modification to the bistable circuit solved the issues and allowed the use of a button instead of a switch for stopping and starting the clock.
 Credit - [dawidbuchwald](https://www.reddit.com/r/beneater/comments/eai6ke/issue_with_clock_kit_and_possible_solution_with/)
 
 ![bistable-timer-modification](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/3822ef2b-32a2-43c4-af16-ca562a3a7456)
 
 
-## A Register:
+## A Register
 <img width="1193" alt="a-register" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/4c5da3d8-df1b-4bbf-a5bb-f6754ecf6c3e">
 
-## B Register:
+## B Register
 <img width="1202" alt="b-register-1" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/0a204da4-4c27-4b25-9dd2-ab528a617e9f">
 
-## Instruction Register:
+## Instruction Register
 <img width="1124" alt="instruction-register" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/3c73cf02-e06d-42cc-8965-48d41d453bd7">
 
-## Arithmetic Logic Unit (ALU):
+## Arithmetic Logic Unit (ALU)
 <img width="1427" alt="alu" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/b14e982f-f6f4-49f2-91ed-7cbf42902d84">
 
-## Memory Address Register (MAR):
+## Memory Address Register (MAR)
 <img width="1128" alt="memory-address-register" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/86fc4211-26fa-4312-a12e-8baa68d8c02f">
 
-## Random Access Memory (RAM):
+## Random Access Memory (RAM)
 <img width="1409" alt="ram" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/55bb503e-b215-45a2-ad43-28f69c15fe72">
 
-## Program Counter:
+## Program Counter
 <img width="972" alt="program-counter" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/41bd989e-fff1-40d9-9422-a1a4b4048f73">
 
-## Output Register:
+## Output Register
 <img width="1411" alt="output" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/d40a9d81-3915-44c2-8369-eca7a86a886d">
 
-## Control Logic:
+## Control Logic
 <img width="1403" alt="control-logic" src="https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/7ccfa138-bb09-4dd9-ba20-af355113857d">
 
 
