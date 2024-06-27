@@ -72,12 +72,14 @@ Every instruction begins with a 2-microinstruction fetch cycle before performing
 |`0110`|2    | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 
 ## JC
+JC does nothing unless the carry flag is set to 1.
 | Code |Step | C 🚩|HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |------|-----|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |`0111`|2    |0    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |`0111`|2    |1    | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 
 ## JZ
+JZ does nothing unless the zero flag is set to 1.
 | Code |Step | Z 🚩 |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |------|-----|-------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |`1000`|2    |0      | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
