@@ -25,14 +25,14 @@ Each instruction executes a set of microinstructions to perform the given operat
 ### Fetch
 A 2-microinstruction fetch cycle runs before every instruction.
 This cycle fetches the instruction from the memory, and puts it into the instruction register to be executed.
-| Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
-|------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|  ----|0    | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-|  ----|1    | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+|Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
+|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|0    | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+|1    | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 
 Below are the microinstructions that run for each instruction after the fetch cycle.
 
-### NOP
+### NOP - `0000`
 | Code |Step |HLT|MI |RI |RO |II |IO |AI |AO |∑O |SU |BI |OI |CE |CO |J  |FI |
 |------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |`0000`|2    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
