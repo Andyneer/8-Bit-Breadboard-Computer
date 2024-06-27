@@ -1,6 +1,6 @@
 
 |**Memory Address**|**Instruction**|**Memory Contents**|**Description**|
-|:----------------:|---------------|----------------|---------------|
+|:----------------:|---------------|:-----------------:|---------------|
 |0|LDA 14|`0001` `1110`| Load the contents of address 14 into the A register|
 |1|SUB 12|`0011` `1100`|Subtract the contents of address 12 from the contents of the A register|
 |2|JC 6|`0111` `0110`|Jump to address 6 if the carry flag is set|
