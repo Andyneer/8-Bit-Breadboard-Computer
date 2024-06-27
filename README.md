@@ -30,7 +30,7 @@ The programming language for the computer is a custom assembly language with 11 
 | OUT             | `1110`   |  Output the contents of the A register to the 7-segment display.                                                        |
 | HLT             | `1111`   |  Halts the computer.                                                                                                    |
 
-Additional information for how each instruction works is available in the [Programming-Language.md](Programming-Language.md) file
+Additional information for how each instruction works is available in the [Programming-Language.md](Programming-Language.md) file.
 
 Simple-As-Possible-1 Computer Architecture - "Digital Computer Electronics" by Albert Paul Malvino, page 140:
 ![SAP-1 Architecture](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/ca557870-c1c1-4004-a7bc-5e941358bff1)
