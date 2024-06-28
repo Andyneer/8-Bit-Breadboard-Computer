@@ -23,8 +23,6 @@ Below is a table which describes what each bit of the control word does.
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|ALU Subtract|B Register Input|Output Register Input|Program Counter Enable|Program Counter Output|Jump|Flag Register Input|
 |**Short Hand**|HLT|MI|RI|RO|II|IO|AI|AO|∑O|SU|BI|OI|CE|CO|J|FI|
 
-The tables below describe the microinstructions that are performed for every instruction.
-
 ### Fetch
 A 2-microinstruction fetch cycle runs before every instruction.
 This cycle fetches the instruction from the memory and puts it into the instruction register to be executed.
