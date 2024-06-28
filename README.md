@@ -4,7 +4,7 @@ It was built using [7400-series transistor–transistor logic chips](https://en.
 Modules were built and tested individually before combining them all with the bus and control logic.
 The computer has only 16 Bytes of RAM so programs are quite limited but the instruction set is [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness).
 
-![8-bit computer diagram](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/8c201af0-f3b9-4e81-ae10-88bd3f7d4240)
+![8-bit computer Labeled](https://github.com/Andyneer/8-Bit-Breadboard-Computer/assets/90639840/4a034bc8-c990-4c44-bb8e-73162735fcd7)
 
 The programming language for the computer is a custom assembly language with 11 Instructions:
 | **Instruction** | **Code** | **Description**                                                                                                         |
