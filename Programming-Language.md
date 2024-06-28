@@ -16,12 +16,14 @@ If the instruction does not use any parameters, the least significant 4 bits are
 | HLT             | `1111`   |  Halt the computer.                                                                                                     |
 
 Each instruction executes a set of microinstructions to perform the given operation. The instruction code and the current step are sent to the microcode EEPROMs which output a corresponding 16-bit control word for that step of the instruction. Each bit of the control word is connected to the relevant module of the computer.
-Below is a table which describes what each bit of the control word does, as well as tables to show the microinstructions for every instruction. 
+Below is a table which describes what each bit of the control word does.
 
 |**Bit**| 15<sup>th</sup> | 14<sup>th</sup> | 13<sup>th</sup> | 12<sup>th</sup> | 11<sup>th</sup> | 10<sup>th</sup> | 9<sup>th</sup> | 8<sup>th</sup> | 7<sup>th</sup> | 6<sup>th</sup> | 5<sup>th</sup> | 4<sup>th</sup> | 3<sup>rd</sup> | 2<sup>nd</sup> | 1<sup>st</sup> | 0<sup>th</sup> |
 |---|--- | ---| ---| ---| ---| ---|---|---|---|---|---|---|---|---|---|---|
 |**Description**|Halt|Memory Address Register Input|RAM Input|RAM Output|Instruction Register Input| Instruction Register Output|A Register Input|A Register Output|ALU Output|ALU Subtract|B Register Input|Output Register Input|Program Counter Enable|Program Counter Output|Jump|Flag Register Input|
 |**Short Hand**|HLT|MI|RI|RO|II|IO|AI|AO|∑O|SU|BI|OI|CE|CO|J|FI|
+
+The tables below describe the microinstructions that are performed for every instruction.
 
 ### Fetch
 A 2-microinstruction fetch cycle runs before every instruction.
