@@ -1,4 +1,4 @@
-The programming language for this computer is a custom assembly language made up of 11 instructions. An instruction consists of 1 byte of data. The instruction code is the most significant 4 bits. If the instruction uses a parameter such as an address, it is stored in the least significant 4 bits.
+The programming language for this computer is a custom assembly language made up of 11 instructions. An instruction consists of 1 byte of data. The instruction code is the most significant 4 bits. If the instruction takes a parameter, it is stored in the least significant 4 bits.
 If the instruction does not use any parameters, the least significant 4 bits are irrelevant. When it comes to actually programming the computer, the binary instruction codes and parameters must be manually input into each memory address using the control box.
 
 | **Instruction** | **Code** | **Description**                                                                                                         |
