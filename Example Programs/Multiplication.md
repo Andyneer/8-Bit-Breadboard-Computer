@@ -1,5 +1,5 @@
 # Multiplication
-## This program calculates the product of the numbers stored in addresses 14 and 15.
+### This program calculates the product of the numbers stored in addresses 14 and 15.
 |**Memory Address**|**Instruction**|**Memory Contents**|**Description**|
 |:----------------:|---------------|:-----------------:|---------------|
 |0|LDA 14|`0001` `1110`| Load the contents of address 14 into the A register|
