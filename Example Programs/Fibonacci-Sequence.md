@@ -1,4 +1,5 @@
 # Fibonacci Sequence
+### This program outputs the fibonacci sequence to the display, haulting before overflowing.
 |**Memory Address**|**Instruction**|**Memory Contents**|**Description**|
 |:----------------:|---------------|:-----------------:|---------------|
 |0|LDI 1|`0101` `0001`| Load 1 into the A register|
@@ -19,6 +20,7 @@
 |15|y|`----` `----`|The other value being added|
 
 # Fibonacci Sequence (Looping)
+### This program outputs the fibonacci sequence to the display, resetting to 0 before overflowing.
 |**Memory Address**|**Instruction**|**Memory Contents**|**Description**|
 |:----------------:|---------------|:-----------------:|---------------|
 |0|LDI 1|`0101` `0001`| Load 1 into the A register|
